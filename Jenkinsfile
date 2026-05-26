@@ -1,5 +1,5 @@
 pipeline {
-    agents any
+    agent any
     environment {
         COMPOSE_PROJECT_NAME = "chesstient_${BUILD_NUMBER}"
     }
